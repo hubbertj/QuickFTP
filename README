@@ -1,0 +1,9 @@
+Quick FTP
+
+Usage:
+
+QFTP <servername> <File>
+
+Quick FTP is used to pass a file over the network without having to do all those FTP commands. The ideal behind it is that you will configure a QFTP.conf file which will have all your FTP information. Simple call QFTP via command line and provide the proper arguments and it will FTP the file over to the server. 
+
+Quick FTP will also be designed to have muiltiple FTP servers saved. All the user has to do is called QFTP -c <FTPservername> and FTP will remember whihc FTP server is its default. QFTP will of course have a show default option which will be QFTP --ShowServer. This command will output the default server, IP, and username your using to login to the server.
